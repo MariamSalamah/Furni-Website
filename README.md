@@ -45,15 +45,15 @@ Based on the original Furni template:
 ```bash
 # Clone the repo
 git clone https://github.com/MariamSalamah/Furni-Website.git
-
+ 
 # Navigate into the project
-cd Furni-Website
-
+cd furni-website
+ 
 # Install dependencies
 npm install
-
+ 
 # Start the development server
-npm run dev
+npm start
 ```
 
 Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
