@@ -1,6 +1,6 @@
 # 🛋️ Furni Website — Material UI Clone
 
-A recreation of the **Furni** furniture & interior design homepage, rebuilt from scratch using **React** and **Material UI (MUI)**.
+A recreation of the **Furni** furniture & interior design homepage, rebuilt from scratch using **React + Vite** and **Material UI (MUI)**.
 
 > ⚠️ This is a work in progress. The home page is partially complete — more sections and pages will be added soon.
 
@@ -13,9 +13,16 @@ Based on the original Furni template:
 
 ---
 
+## 🎓 Context
+
+This project was built as part of a **Material UI assessment** for the **ITI MEARN Stack Track — 2026**.
+
+---
+
 ## 🧰 Built With
 
 - [React](https://reactjs.org/) — JavaScript UI library
+- [Vite](https://vitejs.dev/) — Fast development build tool
 - [Material UI (MUI)](https://mui.com/) — Component library used for **all** styling and layout
 
 ---
@@ -45,15 +52,15 @@ Based on the original Furni template:
 ```bash
 # Clone the repo
 git clone https://github.com/MariamSalamah/Furni-Website.git
- 
+
 # Navigate into the project
 cd furni-website
- 
+
 # Install dependencies
 npm install
- 
+
 # Start the development server
-npm start
+npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
@@ -63,12 +70,15 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 ## 📁 Project Structure
 
 ```
-Furni-Website/
+furni-website/
 ├── src/
+│   ├── assets/
 │   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── HeroSection.jsx
 │   ├── App.jsx
-│   └── index.js
-├── public/
+│   └── main.jsx
+├── index.html
 ├── package.json
 └── README.md
 ```
@@ -77,7 +87,7 @@ Furni-Website/
 
 ## 📌 Notes
 
-- This project is for **learning and practice purposes** only.
+- This project is for **learning and assessment purposes** only.
 - The original design belongs to [Untree.co](https://untree.co) / ThemeWagon.
 
 ---
