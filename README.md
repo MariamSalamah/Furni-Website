@@ -44,7 +44,7 @@ Based on the original Furni template:
 
 ```bash
 # Clone the repo
-git clone [https://github.com/MariamSalamah/Furni-Website.git](https://github.com/MariamSalamah/Furni-Website.git)
+git clone https://github.com/MariamSalamah/Furni-Website.git
 
 # Navigate into the project
 cd Furni-Website
