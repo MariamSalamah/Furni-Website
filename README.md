@@ -29,19 +29,19 @@ This project was built as part of a **Material UI assessment** for the **ITI MEA
 
 ## ✅ What's Done So Far
 
-- Navigation bar
-- Hero section (headline + CTA buttons)
-- Crafted Section
-- "Why Choose Us" features section
-- We Help You Section
-- Layout using MUI Grid and Box
+- Navbar
+- Hero section (headline, description, CTA buttons, product image)
+- Crafted section
+- We Help You section
+- Why Choose Us section
+- Layout using MUI `Grid` and `Box`
 
 ---
 
 ## 🚧 Coming Soon
 
 - Testimonials section
-- Recent Blog
+- Blog Section
 - Footer
 - Additional pages (Shop, About, Contact)
 
@@ -71,14 +71,24 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ```
 furni-website/
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
 ├── src/
-│   ├── assets/
+│   ├── assets/         # images
 │   ├── components/
 │   │   ├── Navbar.jsx
-│   │   └── HeroSection.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── CraftedSection.jsx
+│   │   ├── WeHelpYouSection.jsx
+│   │   └── WhyChooseUsSection.jsx
 │   ├── App.jsx
-│   └── main.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
 ├── index.html
+├── vite.config.js
+├── eslint.config.js
 ├── package.json
 └── README.md
 ```
