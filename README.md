@@ -1,18 +1,87 @@
-# React + Vite
+# 🛋️ Furni Website — Material UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A recreation of the **Furni** furniture & interior design homepage, rebuilt from scratch using **React** and **Material UI (MUI)**.
 
-Currently, two official plugins are available:
+> ⚠️ This is a work in progress. The home page is partially complete — more sections and pages will be added soon.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Original Design
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Based on the original Furni template:
+👉 [https://themewagon.github.io/furni/](https://themewagon.github.io/furni/)
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧰 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) — JavaScript UI library
+- [Material UI (MUI)](https://mui.com/) — Component library used for **all** styling and layout
+
+---
+
+## ✅ What's Done So Far
+
+- Navigation bar
+- Hero section (headline + CTA buttons)
+- Crafted Section
+- "Why Choose Us" features section
+- We Help You Section
+- Layout using MUI Grid and Box
+
+---
+
+## 🚧 Coming Soon
+
+- Testimonials section
+- Recent Blog
+- Footer
+- Additional pages (Shop, About, Contact)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone [https://github.com/MariamSalamah/Furni-Website.git](https://github.com/MariamSalamah/Furni-Website.git)
+
+# Navigate into the project
+cd Furni-Website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+Furni-Website/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── index.js
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+
+## 📌 Notes
+
+- This project is for **learning and practice purposes** only.
+- The original design belongs to [Untree.co](https://untree.co) / ThemeWagon.
+
+---
+
+## 📬 Contact
+
+Feel free to open an issue or reach out if you have suggestions or feedback!
