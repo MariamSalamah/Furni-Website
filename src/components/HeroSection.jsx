@@ -17,8 +17,8 @@ export default function HeroSection() {
                 <Typography sx={{ color:'white', width:"70%", mb:2}} variant='h3'><strong>Modern Interior Design Studio</strong></Typography>
                 <Typography sx={{ color:'#c7c7c78e', width:"75%", fontSize: 14 , mb:2}}>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</Typography>
                 <Box sx={{display: 'flex', gap: 1}}>
-                     <Button rounded variant="contained" sx={{backgroundColor:'#f8b810', color:'#151515e7', borderRadius: '20px'}}>Shop Now</Button>
-                     <Button rounded variant="outlined" sx={{borderColor:'#bcbcbca5', color:'#ffffff', borderRadius: '20px' }}>Explore</Button>
+                     <Button rounded variant="contained" sx={{backgroundColor:'#f8b810', color:'#151515e7', borderRadius: '30px',p:1.5, width:'120px'}}>Shop Now</Button>
+                     <Button rounded variant="outlined" sx={{borderColor:'#bcbcbca5', color:'#ffffff', borderRadius: '30px',p:1.5, width:'120px' }}>Explore</Button>
                 </Box>
             </Grid>
 
